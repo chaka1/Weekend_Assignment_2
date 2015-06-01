@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">JustEat Restaurant finder</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="progress_message">Loading...</string>
+    <string name="empty_list">No restaurants found</string>
+    <string name="search_hint">Postcode to search</string>
+    <string name="main_activity_search_view_error">The postcode is wrong.  Please ensure that you type a correct UK outward code (the part before the space.)</string>
+</resources>

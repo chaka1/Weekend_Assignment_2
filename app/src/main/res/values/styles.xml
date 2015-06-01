@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="android:ratingBarStyleSmall">@style/RatingBarSmallAppTheme</item>
+    </style>
+
+    <style name="RatingBarSmallAppTheme" parent="android:Widget.Holo.RatingBar.Small">
+        <item name="android:progressDrawable">@drawable/apptheme_ratingbar_small_holo_dark</item>
+        <item name="android:indeterminateDrawable">@drawable/apptheme_ratingbar_small_holo_dark</item>
+    </style>
+
+</resources>
