@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.chaka.weekendassignment2.activities.RestaurantActivity">
+
+    <fragment android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:id="@+id/map" tools:context=".RestaurantActivity"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_above="@+id/restaurantsActivityTVName"
+        android:layout_alignParentTop="true" />
+
+    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/restaurantsActivityTVName"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/restaurantsActivityTVAddress"
+        android:layout_below="@+id/restaurantsActivityTVName"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/restaurantsActivityTVCity"
+        android:layout_below="@+id/restaurantsActivityTVAddress"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/restaurantsActivityTVPostCode"
+        android:layout_below="@+id/restaurantsActivityTVCity"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/restaurantsActivityTVIsOpen"
+        android:layout_below="@+id/restaurantsActivityTVPostCode"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/restaurants_activity_btn_navigate_to"
+        android:id="@+id/button"
+        android:layout_below="@+id/restaurantsActivityTVIsOpen"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="navigateTo" />
+
+</RelativeLayout>

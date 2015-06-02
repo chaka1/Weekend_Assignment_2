@@ -9,4 +9,7 @@
         app:showAsAction="always"
         app:actionViewClass="android.support.v7.widget.SearchView"
         android:title="Search"/>
+    <item android:id="@+id/action_show_map" android:title="show map"
+        android:orderInCategory="100" app:showAsAction="never" />
+
 </menu>
